@@ -1,0 +1,145 @@
+<!--Startpage by DaSteel-->
+
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>s a d g e</title></title>
+		<link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48 64x64" type="image/vnd.microsoft.icon" />
+		<script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<script type="text/javascript">
+			function show( show1 ) {
+			  document.getElementById(show1).style.display="block";
+			}
+			function hide( hide1 ) {
+			  document.getElementById(hide1).style.display="none";
+			}
+			function tog( tog1 ) {
+			  document.getElementById(tog1).style.backgroundColor="#777777";
+			}
+			function toh( toh1 ) {
+			  document.getElementById(toh1).style.backgroundColor="#ffffff";
+			}
+		</script>
+	</head>
+	<body>
+		<div class="maincontainer">
+			<div class="bottomcontainer">
+				<div class="button" id="btn1" onclick = "show('main1');hide('main2');hide('main3');tog('btn1');toh('btn2');toh('btn3');"></div>
+				<div class="button" id="btn2" onclick = "show('main2');hide('main1');hide('main3');tog('btn2');toh('btn1');toh('btn3');"></div>
+				<div class="button" id="btn3" onclick = "show('main3');hide('main1');hide('main2');hide('main1');tog('btn3');toh('btn1');toh('btn2');"></div>
+
+				<div class="marqueebar" id="marqueebar">
+					<!-- <marquee direction="right" id="quotes"></marquee> -->
+				</div>
+				
+				<div class="searchbar">
+					<form name="form1" action="https://duckduckgo.com/?q=&t=hh" target="_blank" method="get" >
+						<input type="text" autocomplete="off" placeholder="duckduckgo search" name="q" class="searchinput"></input>
+					</form>
+				</div>
+			</div>
+			<div class="time" id="time">
+				<script>
+					//document.getElementById("main").innerHTML = Date();
+					function updateClock() {
+						var days = ['SUNDAY','MONDAY','TUESDAY','WEDNESDAY','THURSDAY','FRIDAY','SATURDAY'];
+						var m = new Date();
+						var dateString =
+						  (days[ m.getDay() ]) + " " +
+						  ("0" + (m.getMonth()+1)).slice(-2) +"/"+
+						  ("0" + m.getDate()).slice(-2) + "/" +
+						  m.getFullYear() +" "+
+						  ("0" + m.getHours()).slice(-2) + ":" +
+						  ("0" + m.getMinutes()).slice(-2) + ":" +
+						  ("0" + m.getSeconds()).slice(-2);
+						
+						// set the content of the element with the ID time to the formatted string
+						document.getElementById('time').innerHTML = dateString;
+
+						// call this function again in 1000ms
+						setTimeout(updateClock, 1000);
+					}
+					updateClock(); // initial call
+				</script>
+			</div>
+			<div class="main" id="main1">
+				<div class="sidebar" style="background-image: url(img/R3.gif);"></div>
+				<div class="welcome">疲れた AF</div>
+				<div class="bookmarkscontainer">
+					<ul>
+						<li><a href="http://sweclockers.com" class="clink" target="_blank">sweclockers</a>
+						<li><a href="http://youtube.com/feed/subscriptions" class="clink" target="_blank">youtube</a>
+						<li><a href="http://twitter.com" class="clink" target="_blank">twitter</a>
+						<li><a href="http://twitch.com" class="clink" target="_blank">twitch</a>
+					</ul>
+					<ul>
+						<li><a href="http://facebook.com" class="clink" target="_blank">facebook</a>
+						<li><a href="http://netflix.com/browse" class="clink" target="_blank">netflix</a>
+						<li><a href="http://omni.se" class="clink" target="_blank">omni</a>
+						<li><a href="http://fz.se" class="clink" target="_blank">fz</a>
+					</ul>
+					<ul>
+						<li><a href="http://komplett.se" class="clink" target="_blank">komplett</a>
+						<li><a href="http://blocket.se" class="clink" target="_blank">blocket</a>
+						<li><a href="http://store.steampowered.com" class="clink" target="_blank">steam</a>
+						<li><a href="http://inet.se" class="clink" target="_blank">inet</a>
+					</ul>
+					<ul>
+						<li><a href="http://humblebundle.com" class="clink" target="_blank">humblebundle</a>
+						<li><a href="http://webhallen.com/" class="clink" target="_blank">webhallen</a>
+						<li><a href="http://prisjakt.nu/" class="clink" target="_blank">prisjakt</a>
+						<li><a href="http://netbank.nordea.se/#!/" class="clink" target="_blank">nordea</a>
+					</ul>
+				</div>
+			</div>
+			<div class="main" id="main2" style="display:none">
+				<div class="sidebar" style="background-image: url(img/R2.png);"></div>
+				<div class="welcome">角質   AF</div>
+				<div class="bookmarkscontainer">
+					<ul>
+						<li><a href="http://boards.4chan.org/b/" class="clink" target="_blank">worksafe gif</a>
+						<li><a href="http://boards.4chan.org/b/" class="clink" target="_blank">wallpapers</a>
+						<li><a href="http://boards.4chan.org/b/" class="clink" target="_blank">random</a>
+						<li><a href="http://boards.4chan.org/mu/" class="clink" target="_blank">music</a>
+					</ul>
+					<ul>
+						<li><a href="http://boards.4chan.org/gd/" class="clink" target="_blank">grapic design</a>
+						<li><a href="http://boards.4chan.org/g/" class="clink" target="_blank">technology</a>
+						<li><a href="http://boards.4chan.org/trash/" class="clink" target="_blank">trash</a>
+						<li><a href="http://boards.4chan.org/o/" class="clink" target="_blank">auto</a>
+					</ul>
+					<ul>
+						<li><a href="http://furaffinity.net/msg/submissions/new@72/" class="clink" target="_blank">floffaffinity</a>
+						<li><a href="http://nyaa.si" class="clink" target="_blank">nyaa tor</a>
+						<li><a href="http://kemono.party/" class="clink" target="_blank">kemono</a>
+						<li><a href="http://e621.net/explore/posts/popular" class="clink" target="_blank">e621</a>
+					</ul>
+					<ul>
+						<li><a href="http://myreadingmanga.info" class="clink" target="_blank">myreadingmanga</a>
+						<li><a href="http://lilithsthrone.blogspot.com/?zx=4bd9273c1eb00e85" class="clink" target="_blank">lilithsthrone</a>
+						<li><a href="http://yiffer.xyz" class="clink" target="_blank">yiffer</a>
+					</ul>
+				</div>	
+			</div>
+			<div class="main" id="main3" style="display:none">
+				<div class="sidebar" style="background-image: url(img/R1.png);"></div>
+				<div class="welcome">悲しい AF</div>
+				<div class="bookmarkscontainer">
+					<ul>
+						<li><a href="http://cryptonator.com/auth/signin/" class="clink" target="_blank">cryptonator</a>
+					</ul>
+					<ul>
+						<!-- <li><a href="http://facebook.com" class="clink" target="_blank">facebook</a> -->
+					</ul>
+					<ul>
+						<!-- <li><a href="https://thesongclash.com/en/quiz" class="clink" target="_blank">thesongclash</a> -->
+					</ul>
+					<ul>
+						<li><a href="http://bt.cx/en/login/" class="clink" target="_blank">bt.cx</a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
