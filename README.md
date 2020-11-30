@@ -17,5 +17,3 @@ Features:
 Disclaimer
 ----
 This is a modified version of  Tayumee's startup page:	https://startpages.github.io/startpages/start_page_2-tayumpee/
-
-PREVIEW
