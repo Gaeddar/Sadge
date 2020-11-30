@@ -1,5 +1,4 @@
 # Sadge
-====
 
 [**Demo**](https://gaeddar.github.io/Sadge/?)
 
