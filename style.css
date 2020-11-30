@@ -165,6 +165,22 @@ body{
 	background-size: cover;
 }
 
+.sidebarvid {
+	border-style: solid;
+	border-width: 2px;
+	border-color: #000000;
+	position: absolute;
+	top: -2px;
+	bottom:200px;
+    width: 129px;
+	height: 319px;
+    left: 541px;
+	background-color:#FFFFFF;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 .time {
 	color:#FFFFFF;
 	font-family: haxrcorp, monospace;
@@ -242,7 +258,7 @@ a:hover {
 	font-size: 16px;
 	text-decoration:none;
 	line-height: 16px;
-	color:#000000;
+	color:#595959;
 }
 
 .clink:hover{
