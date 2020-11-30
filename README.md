@@ -12,7 +12,7 @@ Features:
 * Date/time
 
 ### Preview
-![preview](preview.webm)
+![preview](preview.gif)
 
 Disclaimer
 ----
