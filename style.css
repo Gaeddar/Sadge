@@ -2,7 +2,7 @@
 {
     font-family:'haxrcorp';
     src: url('haxrcorpttf.ttf');
-    font-display: swap;
+	font-display: swap;
 }
 
 input {
@@ -259,10 +259,23 @@ a:hover {
 	font-size: 16px;
 	text-decoration:none;
 	line-height: 16px;
-	color:#000000;
+	color:#595959;
 }
 
 .clink:hover{
 	text-decoration:underline;
 }
 
+.lewd {
+	font-size: 16px;
+	text-decoration:none;
+	line-height: 16px;
+	text-shadow: 0 0 3px #595959;
+	color: #59595900;
+}
+
+.lewd:hover {
+	text-shadow: 0 0 0px #0000;
+	color:#595959;
+	text-decoration:underline;
+}
